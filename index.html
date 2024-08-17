@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Blogging Website</title>
+</head>
+<body>
+
+<div class="bg-gray-50">
+
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="text-xl font-bold text-indigo-600"><img src="./ASSETS/logo.avif" alt="Logo" class="h-16" ></div>
+            <nav class="hidden md:flex space-x-4">
+                <a href="#" class="text-gray-700 hover:text-indigo-600">Home</a>
+                <a href="#" class="text-gray-700 hover:text-indigo-600">Features</a>
+                <a href="#" class="text-gray-700 hover:text-indigo-600">Pricing</a>
+                <a href="#" class="text-gray-700 hover:text-indigo-600">About</a>
+                <a href="#" class="text-gray-700 hover:text-indigo-600">Contact</a>
+            </nav>
+            <div class="flex gap-4">
+            <a href="./SIGNUP/signup.html" class="hidden md:block bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">Sign Up</a>
+            <a href="./DASHBOARD/dashboard.html" class="hidden md:block bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">Dashboard</a>
+            </div>
+            </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-white py-16">
+        <div class="container mx-auto flex flex-col md:flex-row items-center px-6">
+            <div class="flex-1">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Platform where ideas take shape, and voices are heard.</h1>
+                <p class="text-gray-600 mb-6">Our blog website is your go-to space for sharing insights, exploring trends, and connecting with a community of thinkers and doers. Whether you're an aspiring writer, seasoned expert, or just someone with a story to tell, our platform provides the tools and audience to amplify your voice and make a lasting impact.</p>
+                <a href="./SIGNUP/signup.html" class="bg-indigo-600 text-white px-6 py-3 rounded-md text-lg hover:bg-indigo-700">Get Started</a>
+            </div>
+            <div class="flex-1 mt-10 md:mt-0">
+                <img src="./ASSETS/hero.jpg" alt="Hero Image" class="w-full h-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./ASSETS/feature1.jpg" alt="User-Friendly Interface" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">User-Friendly Interface</h3>
+                    <p class="text-gray-600">Enjoy a seamless and enjoyable browsing experience with our clean and intuitive design. Our user-friendly interface ensures easy navigation with straightforward menus, clear layouts, and responsive design that adapts beautifully to any device. Effortlessly find what you need and engage with content without any hassle.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./ASSETS/feature2.jpg" alt="Personalized Profiles" class="w-12 h-12 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Personalized Profiles</h3>
+                    <p class="text-gray-600">Make your mark with a customized profile that reflects your unique personality. Upload a profile picture, update your bio, and manage your personal information with ease. Enjoy a personalized experience as you interact with the community and showcase your individuality on our platform.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <img src="./ASSETS/feature3.jpg" alt="Seamless Authentication" class="w-12 h-12 mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Seamless Authentication</h3>
+                    <p class="text-gray-600">Access your account effortlessly with our streamlined Sign-Up and Sign-In process. Enjoy secure, hassle-free login with instant password recovery options, ensuring you can easily and safely get to your content whenever you need it.</p>
+                </div>
+                <!-- Repeat similar blocks for other features -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10">What Our Users Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <p class="text-gray-600 mb-4">"This product has completely transformed the way I work!"</p>
+                    <div class="flex items-center justify-center">
+                        <img src="user-photo1.png" alt="User Photo" class="w-10 h-10 rounded-full mr-4">
+                        <div>
+                            <p class="text-gray-800 font-semibold">John Doe</p>
+                            <p class="text-gray-600 text-sm">CEO, Company</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other testimonials -->
+            </div>
+        </div>
+    </section>
+
+<!-- About Us Section -->
+<section class="bg-gray-100 py-16">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-10">About Us</h2>
+        <div class="max-w-4xl mx-auto">
+            <p class="text-lg text-gray-600 mb-6">
+                Welcome to NarrateNow, where we bring you the latest and most insightful content. Our mission is to provide valuable information and foster a community of enthusiasts and experts who share a passion.
+            </p>
+            <p class="text-lg text-gray-600 mb-6">
+                Founded in 2024, our team of dedicated writers and contributors are committed to delivering high-quality articles, reviews, and resources that keep you informed and engaged. We believe in creating a space where ideas are shared, discussions are encouraged, and knowledge is accessible to everyone.
+            </p>
+            <p class="text-lg text-gray-600 mb-6">
+                Whether you're looking to stay updated on the latest trends, gain expert insights, or simply enjoy well-crafted content, [Your Blog Name] is here to meet your needs. Thank you for visiting, and we hope you find our blog both informative and enjoyable.
+            </p>
+            <a href="#" class="bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQ Section -->
+<section class="bg-white py-16">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-gray-800 mb-10 text-center">Frequently Asked Questions</h2>
+        <div class="space-y-4 mx-4">
+            <!-- FAQ Item 1 -->
+            <div class="bg-gray-100 rounded-lg shadow-md">
+                <button class="w-full text-left px-4 py-3 text-lg font-semibold text-gray-800 focus:outline-none accordion-button">
+                    What is the return policy?
+                    <svg class="w-5 h-5 inline-block ml-2 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="accordion-content px-4 py-3 hidden">
+                    <p class="text-gray-600">We offer a 30-day return policy with no questions asked.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="bg-gray-100 rounded-lg shadow-md">
+                <button class="w-full text-left px-4 py-3 text-lg font-semibold text-gray-800 focus:outline-none accordion-button">
+                    How can I create a new blog post?
+                    <svg class="w-5 h-5 inline-block ml-2 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="accordion-content px-4 py-3 hidden">
+                    <p class="text-gray-600">Simply log in to your account, navigate to the dashboard, and click on 'Create Post'. You'll be able to add your content using our WYSIWYG editor.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="bg-gray-100 rounded-lg shadow-md">
+                <button class="w-full text-left px-4 py-3 text-lg font-semibold text-gray-800 focus:outline-none accordion-button">
+                    Can I edit or delete my posts?
+                    <svg class="w-5 h-5 inline-block ml-2 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="accordion-content px-4 py-3 hidden">
+                    <p class="text-gray-600">Yes, you can edit or delete your posts at any time from your profile dashboard. Just select the post you want to modify and choose the appropriate action.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="bg-gray-100 rounded-lg shadow-md">
+                <button class="w-full text-left px-4 py-3 text-lg font-semibold text-gray-800 focus:outline-none accordion-button">
+                    How do I manage my profile settings?
+                    <svg class="w-5 h-5 inline-block ml-2 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="accordion-content px-4 py-3 hidden">
+                    <p class="text-gray-600">Go to your profile page and click on 'Edit Profile' to update your picture, bio, and personal information.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="bg-gray-100 rounded-lg shadow-md">
+                <button class="w-full text-left px-4 py-3 text-lg font-semibold text-gray-800 focus:outline-none accordion-button">
+                    What should I do if I forget my password?
+                    <svg class="w-5 h-5 inline-block ml-2 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="accordion-content px-4 py-3 hidden">
+                    <p class="text-gray-600">Use the 'Forgot Password' link on the login page to reset your password. Follow the instructions sent to your email to create a new password.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="bg-gray-100 rounded-lg shadow-md">
+                <button class="w-full text-left px-4 py-3 text-lg font-semibold text-gray-800 focus:outline-none accordion-button">
+                    How can I use the search and filter options?
+                    <svg class="w-5 h-5 inline-block ml-2 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="accordion-content px-4 py-3 hidden">
+                    <p class="text-gray-600">Use the search bar at the top of the page to find specific posts. To filter posts, select categories or tags from the filtering options available on the sidebar or top menu.</p>
+                </div>
+            </div>
+
+            <!-- FAQ Item 7 -->
+            <div class="bg-gray-100 rounded-lg shadow-md">
+                <button class="w-full text-left px-4 py-3 text-lg font-semibold text-gray-800 focus:outline-none accordion-button">
+                    Can I comment on blog posts?
+                    <svg class="w-5 h-5 inline-block ml-2 transform transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="accordion-content px-4 py-3 hidden">
+                    <p class="text-gray-600">Yes, you can leave comments on blog posts by logging into your account. Simply navigate to the post and enter your comment in the designated section.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- CTA Section -->
+    <section class="bg-indigo-600 text-white py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Get Started?</h2>
+            <p class="text-lg mb-6">Join thousands of happy customers using our product to achieve their goals.</p>
+            <a href="./SIGNUP/signup.html" class="bg-white text-indigo-600 px-6 py-3 rounded-md font-semibold hover:bg-gray-200">Sign Up Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto text-center md:text-left">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
+                <div class="mx-4">
+                    <h3 class="text-lg font-bold mb-4"><img src="./ASSETS/logo.avif" class="h-24" alt=""></h3>
+                    <p class="text-gray-400">Innovating your life, one step at a time.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+                        <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+                        <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-gray-400 text-sm text-center">
+                © 2024 NarrateNow. All rights reserved. | Designed with <span class="text-red-400">❤️</span> by Muhammad Haseeb
+            </div>
+        </div>
+    </footer>
+
+
+</div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
